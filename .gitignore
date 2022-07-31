@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/zeiss.test
+/zeiss.test/obj
+/zeiss.test.contracts/obj
+/zeiss.test.core/obj
+/zeiss.test.implementations/obj
+/Zeiss.Test.WebApi/obj

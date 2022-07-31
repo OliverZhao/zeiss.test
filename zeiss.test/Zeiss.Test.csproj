@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\zeiss.test.core\Zeiss.Test.Core.csproj" />
+    <ProjectReference Include="..\zeiss.test.implementations\Zeiss.Test.Implementations.csproj" />
+  </ItemGroup>
+
+</Project>

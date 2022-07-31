@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32630.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeiss.Test", "zeiss.test\Zeiss.Test.csproj", "{4CB5A2BF-B28E-4BD3-9703-FB10BF24983B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeiss.Test.Contracts", "zeiss.test.contracts\Zeiss.Test.Contracts.csproj", "{A27CDBD8-8A9C-4238-AB04-A967F1101747}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeiss.Test.Implementations", "zeiss.test.implementations\Zeiss.Test.Implementations.csproj", "{9AA089A2-F65B-4951-AB47-97244B0DB5C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeiss.Test.Core", "zeiss.test.core\Zeiss.Test.Core.csproj", "{EE9252B0-F57E-43C8-A924-C7E5420C0CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeiss.Test.WebApi", "Zeiss.Test.WebApi\Zeiss.Test.WebApi.csproj", "{FDA329DC-A8FE-4D74-92AA-99395113902C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A53FF34-84AD-466D-90C6-AEAC94F3CC5C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB5A2BF-B28E-4BD3-9703-FB10BF24983B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB5A2BF-B28E-4BD3-9703-FB10BF24983B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB5A2BF-B28E-4BD3-9703-FB10BF24983B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB5A2BF-B28E-4BD3-9703-FB10BF24983B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27CDBD8-8A9C-4238-AB04-A967F1101747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27CDBD8-8A9C-4238-AB04-A967F1101747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27CDBD8-8A9C-4238-AB04-A967F1101747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27CDBD8-8A9C-4238-AB04-A967F1101747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA089A2-F65B-4951-AB47-97244B0DB5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA089A2-F65B-4951-AB47-97244B0DB5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA089A2-F65B-4951-AB47-97244B0DB5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA089A2-F65B-4951-AB47-97244B0DB5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9252B0-F57E-43C8-A924-C7E5420C0CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9252B0-F57E-43C8-A924-C7E5420C0CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9252B0-F57E-43C8-A924-C7E5420C0CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9252B0-F57E-43C8-A924-C7E5420C0CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA329DC-A8FE-4D74-92AA-99395113902C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA329DC-A8FE-4D74-92AA-99395113902C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA329DC-A8FE-4D74-92AA-99395113902C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA329DC-A8FE-4D74-92AA-99395113902C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73405462-28F8-41FE-9822-088A946B24BD}
+	EndGlobalSection
+EndGlobal
